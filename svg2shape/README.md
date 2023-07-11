@@ -7,12 +7,14 @@ This system allows you to use a [SVG Path](https://www.w3.org/TR/SVG2/paths.html
 It doesn’t support all SVG Path commands.
 currently it supports:
 
-* M/m (Move To relative and absolute)
-* L/l (Line To relative and absolute)
-* H/h (Horizontal Line relative and absolute)
-* V/v (Vertical Line relative and absolute)
-* Z/z (Close Path)
-* C (Cubic Bézier Curve, only absolute)
+* `M`/`m` Move To (relative[^1] and absolute)
+* `L`/`l` Line To (relative and absolute)
+* `H`/`h` Horizontal Line (relative and absolute)
+* `V`/`v` Vertical Line (relative and absolute)
+* `Z`/`z` Close Path
+* `C` (ubic Bézier Curve (only absolute)
+
+[^1]: lowercase letters means the path command would use relative coordinates.
 
 Here are a few small examples of SVG Paths:
 
