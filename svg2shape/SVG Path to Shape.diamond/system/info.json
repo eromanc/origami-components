@@ -1,0 +1,16 @@
+{
+  "author" : "eromanc",
+  "system" : "com.eromanc.svgpathtoshape",
+  "thumbnails" : {
+    "-large@2x" : "thumbnail-large@2x.png",
+    "-large@1x" : "thumbnail-large.png"
+  },
+  "releaseNotes" : "",
+  "version" : "1.0.1",
+  "description" : "Couple of utilities to convert from [SVG Path](https:\/\/www.w3.org\/TR\/SVG2\/paths.html) to JSON Shape or directly a Shape object to be used in Origami.",
+  "name" : "SVG Path to Shape",
+  "icons" : {
+    "-large@2x" : "icon-large@2x.png",
+    "-large@1x" : "icon-large.png"
+  }
+}
