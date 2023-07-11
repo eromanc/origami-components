@@ -12,7 +12,7 @@ currently it supports:
 * `H`/`h` Horizontal Line (relative and absolute)
 * `V`/`v` Vertical Line (relative and absolute)
 * `Z`/`z` Close Path
-* `C` (ubic Bézier Curve (only absolute)
+* `C` (Cubic Bézier Curve (only absolute)
 
 [^1]: lowercase letters means the path command would use relative coordinates.
 
