@@ -1,0 +1,24 @@
+{
+  "description" : "Utilities that simplify the creation and usage of common date and time operations",
+  "categoryTitle" : "Utilities",
+  "system" : "4132EEC8-1E89-4821-B2AC-8FFAEDCE9EC5",
+  "author" : "eromanc",
+  "releaseNotes" : "",
+  "version" : "1.0.0",
+  "categoryIdentifier" : "633626535189582",
+  "localExportDirectoryURL" : "\/Users\/eromanc\/Documents\/Dev\/origami-components\/date_time_utils",
+  "thumbnails" : {
+    "-large@2x" : "thumbnail-large@2x.png",
+    "-large@1x" : "thumbnail-large.png"
+  },
+  "tagline" : "Create dates easily",
+  "banners" : {
+    "-large@2x" : "banner-large@2x.png",
+    "-large@1x" : "banner-large.png"
+  },
+  "name" : "Date and Time Utils",
+  "icons" : {
+    "-large@2x" : "icon-large@2x.png",
+    "-large@1x" : "icon-large.png"
+  }
+}
