@@ -63,7 +63,6 @@ function svgToJSONPath(pathStr)  {
       } else {
         cursor = {"x":command[1],"y":command[2]};
       }
-      cursor = {"x":command[1],"y":command[2]};
       object.push({"type":"lineTo", "point" : cursor});
     } else if (command[0] === 'H' || command[0] === 'h') { // Horizontal Line
       if (command[0] === 'h') { // Horizontal relative mode
