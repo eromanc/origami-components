@@ -84,6 +84,9 @@ function svgToJSONPath(pathStr)  {
     } else if (command[0] === 'C') { // Curve
       cursor = {"x":command[5],"y":command[6]};
       object.push({"type":"curveTo", "curveFrom" : {"x":command[1],"y":command[2]}, "curveTo" :{"x":command[3],"y":command[4]}, "point" : {"x":command[5],"y":command[6]}});
+    } else if (command[0] === 'c') { // Curve relative mode
+      object.push({"type":"curveTo", "curveFrom" : {"x":command[1] + cursor.x,"y":command[2] + cursor.y}, "curveTo" :{"x":command[3] + cursor.x,"y":command[4] + cursor.y}, "point" : {"x":command[5] + cursor.x,"y":command[6] + cursor.y}});
+      cursor = {"x":command[5] + cursor.x,"y":command[6] + cursor.y};
     } else {
       throw new Error(`Unsupported Command ${command[0]}`);
     }
